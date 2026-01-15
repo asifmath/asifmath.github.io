@@ -3,46 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asif Shaikh</title>
+    <title>Asif Shaikh | Mathematician</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; }
-        header { background: #333; color: #fff; padding: 1rem; text-align: center; }
-        nav { display: flex; justify-content: center; background: #444; padding: 0.5rem; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: #fff; border-radius: 8px; }
-        .project-card { border-bottom: 1px solid #ddd; padding: 10px 0; }
-        footer { text-align: center; padding: 20px; color: #777; font-size: 0.8rem; }
+        /* Modern Academic Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fcfcfc;
+        }
+
+        header {
+            border-bottom: 2px solid #2c3e50;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 2.5rem;
+        }
+
+        .marathi-name {
+            font-weight: normal;
+            color: #7f8c8d;
+            font-size: 1.8rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #34495e;
+            font-weight: 500;
+        }
+
+        .bio-section p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background-color: #eef2f7;
+            border-left: 5px solid #3498db;
+            padding: 15px 25px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+
+        .interests-list {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+        }
+
+        .interest-tag {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            body { padding: 20px; }
+        }
     </style>
 </head>
 <body>
+
     <header>
-        <h1>Asif Shaikh</h1>
-        <p>Future Web Developer | Student | Creator</p>
+        <h1>Asif Shaikh <span class="marathi-name">(आसिफ शेख)</span></h1>
+        <p class="subtitle">Mathematician | Group Theory Researcher</p>
     </header>
-    
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="mailto:your-email@example.com">Contact</a>
-    </nav>
 
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Write a short bio here. Mention what you're learning and what you love to build!</p>
-        </section>
+    <main class="bio-section">
+        <p>
+            I am a mathematician specialized in the structural beauty of group theory. My research primarily navigates the 
+            interface of <strong>Combinatorial and Geometric Group Theory</strong>, with a specific focus on free groups and their subgroups.
+        </p>
 
-        <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project-card">
-                <h3>Project 1: Personal Website</h3>
-                <p>This very site you're looking at! Built with HTML and CSS and hosted on GitHub Pages.</p>
-            </div>
-        </section>
-    </div>
+        <p>
+            I earned my Ph.D. from <strong>Savitribai Phule Pune University</strong> under the mentorship of Professor Hemant Bhate, 
+            where I explored the Galois coverings of Schreier graphs of self-similar groups. Following my doctoral work, 
+            I was honored to be a <strong>Fulbright-Nehru Postdoc Fellow at Texas A&M University</strong>. During this time, 
+            my research expanded into the cogrowth of finitely generated subgroups and their behavior under the action of 
+            Whitehead automorphisms.
+        </p>
+
+        <p>
+            Beyond pure mathematics, I am captivated by the application of mathematical structures to <strong>Quantitative Biology and Finance</strong>. 
+            This interest was further honed during my tenure as an Assistant Professor at R A Podar College in Mumbai, 
+            where I bridged the gap between abstract theory and financial economics for my students.
+        </p>
+
+        <div class="highlight-box">
+            <h3>Current Chapter</h3>
+            <p>
+                I have recently relocated to <strong>Frankfurt am Main, Germany</strong>. I am currently seeking new 
+                academic and research opportunities within the German mathematical community, where I can contribute 
+                my expertise in group theory, teaching, and interdisciplinary modeling.
+            </p>
+        </div>
+
+        <h3>Beyond the Chalkboard</h3>
+        <p>When I am not immersed in graphs or automorphisms, I find balance in my roots:</p>
+        <ul class="interests-list">
+            <li class="interest-tag">📖 Marathi Literature</li>
+            <li class="interest-tag">🎶 Indian Classical Music</li>
+            <li class="interest-tag">🎹 Semi-classical Music</li>
+        </ul>
+    </main>
 
     <footer>
-        <p>&copy; 2026 Your Name. Built with GitHub Pages.</p>
+        <p>
+            Based in Frankfurt am Main, Germany | 
+            <a href="mailto:your-email@example.com">Email Me</a> | 
+            <a href="https://github.com/your-username">GitHub</a>
+        </p>
+        <p>&copy; 2026 Asif Shaikh</p>
     </footer>
+
 </body>
 </html>
