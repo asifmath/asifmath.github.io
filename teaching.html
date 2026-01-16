@@ -19,7 +19,8 @@
     <style>
         body { margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; line-height: 1.7; background-color: #fcfcfc; color: #333; }
         
-        .page-title-bar { background-color: #34495e; color: white; padding: 10px 0; text-align: center; }
+        /* Fixed Header Bar */
+        .page-title-bar { background-color: #34495e; color: white; padding: 20px 0; text-align: center; }
         .page-title-bar h1 { margin: 0; font-size: 1.5rem; letter-spacing: 1px; }
 
         .main-nav { display: flex; justify-content: center; background-color: #ffffff; padding: 15px 0; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 1000; }
@@ -28,19 +29,23 @@
         .active-nav { background-color: #3498db; color: white; }
 
         .container { max-width: 850px; margin: 40px auto; padding: 0 20px; }
-        .research-card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        .research-card { background: white; padding: 35px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 30px; }
         h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-top: 0; font-size: 1.6rem; }
 
-        .course-item { margin-bottom: 15px; }
-        .course-title { font-weight: bold; color: #2c3e50; }
-        .institution { color: #7f8c8d; font-size: 0.95rem; }
+        .course-item { margin-bottom: 25px; }
+        .course-title { font-weight: bold; color: #2c3e50; font-size: 1.1rem; }
+        .institution { color: #7f8c8d; font-style: italic; font-size: 0.95rem; }
         
-        .philosophy-quote { background-color: #f8f9fa; padding: 20px; border-left: 5px solid #3498db; font-style: italic; margin: 20px 0; }
+        .philosophy-quote { background-color: #f8f9fa; padding: 25px; border-left: 5px solid #3498db; font-style: italic; margin: 25px 0; color: #444; }
 
         footer { text-align: center; padding: 40px; color: #7f8c8d; font-size: 0.9rem; }
     </style>
 </head>
 <body>
+
+<div class="page-title-bar">
+    <h1>Asif Shaikh — Teaching</h1>
+</div>
 
 <nav class="main-nav">
     <a href="index.html" class="nav-button">Home</a>
@@ -58,54 +63,43 @@
         <div class="course-item">
             <span class="course-title">Assistant Professor of Mathematics</span><br>
             <span class="institution">R A Podar College of Commerce and Economics, Mumbai, India</span>
-            <p>I served as an Assistant Professor where I was responsible for delivering core mathematical curricula to students specializing in Finance and Economics. 
-                My role involved adapting complex mathematical theories into accessible tools for economic modeling and financial analysis.</p>
+            <p>I served as an Assistant Professor where I was responsible for delivering core mathematical curricula to students specializing in Finance and Economics. My role involved adapting complex mathematical theories into accessible tools for economic modeling and financial analysis.</p>
+            
+            <strong>Key Courses:</strong>
+            <ul>
+                <li>Mathematics & Statistical Techniques</li>
+                <li>Operations Research</li>
+                <li>Programming: C, Python, R</li>
+                <li>Data Analysis (Excel & SQL)</li>
+            </ul>
         </div>
 
-        <h3>Key Courses Taught</h3>
-        <ul>
-            <li>Mathematics Techniques</li>
-            <li>Statistical Techniques</li>
-            <li>Operations Research</li>
-            <li>Programming Languages: C, Python, R</li>
-            <li>Data Analysis with MS Excel</li>
-            <li>Data Management with SQL</li>
-            
-        </ul>
         <div class="course-item">
             <span class="course-title">Visiting Faculty</span><br>
-            <span class="institution">S P College, & Savitribai Phule Pune University, Pune, India </span>
-            <p>I served as a Visiting Faculty where I was responsible for delivering core mathematical subjects to students specializing in Mathematics. </p>
-        </div>
-
-        <h3>Key Courses Taught</h3>
-        <ul>
-            <li>Group Theory</li>
-            <li>Representation Theory of Finite Groups</li>
-            <li>Operations Research</li>
-            <li>Partial Differential Equations</li>
-            <li>Design and Analysis of Algorithms</li>
-            <li>Data Structures</li>
+            <span class="institution">S P College & Savitribai Phule Pune University, Pune, India</span>
+            <p>I delivered core mathematical subjects to advanced students, focusing on the rigorous foundations required for theoretical research.</p>
             
-        </ul>
-
-        
+            <strong>Key Courses:</strong>
+            <ul>
+                <li>Group Theory & Representation Theory</li>
+                <li>Partial Differential Equations</li>
+                <li>Design and Analysis of Algorithms</li>
+                <li>Data Structures</li>
+            </ul>
+        </div>
     </div>
 
     <div class="research-card">
-    <h2>Philosophy & Approach</h2>
-    
-    <p>My teaching philosophy is centered on bridging the gap between <strong>abstract mathematical rigor</strong> and <strong>meaningful application</strong>. 
-        Whether navigating the complexities of group theory or the mechanics of financial models, I prioritize the "intuition and logic" behind the formulas over rote memorization.</p>
+        <h2>Philosophy & Approach</h2>
+        
+        <p>My teaching philosophy is centered on bridging the gap between <strong>abstract mathematical rigor</strong> and <strong>meaningful application</strong>. Whether navigating the complexities of group theory or the mechanics of financial models, I prioritize the "intuition and logic" behind the formulas over rote memorization.</p>
 
-    <div class="philosophy-quote">
-        "My goal is to empower students to perceive mathematics not as a rigid set of rules, but as a dynamic language capable of decoding and solving real-world complexities."
+        <div class="philosophy-quote">
+            "My goal is to empower students to perceive mathematics not as a rigid set of rules, but as a dynamic language capable of decoding and solving real-world complexities."
+        </div>
+
+        <p>I am particularly interested in the potential for interdisciplinary frameworks that bring pure mathematics into dialogue with <strong>Quantitative Finance</strong>. I believe such a synthesis is essential for preparing students to navigate the analytical demands of both modern research and industry. Furthermore, I am currently exploring how these mathematical tools interface with the emerging field of <strong>Quantitative Biology</strong>.</p>
     </div>
-
-    <p>I am particularly interested in the potential for interdisciplinary frameworks that bring pure mathematics into dialogue with <strong>Quantitative Finance</strong>. 
-        I believe such a synthesis is essential for preparing students to navigate the analytical demands of both modern research and industry. 
-        Furthermore, I am currently exploring how these mathematical tools interface with the emerging field of <strong>Quantitative Biology</strong>.</p>
-</div>
 
 </div>
 
