@@ -14,31 +14,26 @@
             }
         };
     </script>
-
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/dist/tex-mml-chtml.js"></script>
 
     <style>
         body { margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; line-height: 1.7; background-color: #fcfcfc; color: #333; }
         
-        /* Minimalist Title Bar (Replacing the large header) */
+        /* Minimalist Title Bar */
         .page-title-bar {
             background-color: #34495e;
             color: white;
-            padding:  20px 0;
+            padding: 20px 0;
             text-align: center;
         }
         .page-title-bar h1 { margin: 0; font-size: 1.5rem; letter-spacing: 1px; }
-
-        <div class="page-title-bar">
-       <h1>Asif Shaikh — Research</h1>
-        </div>
 
         /* Navigation */
         .main-nav { 
             display: flex; 
             justify-content: center; 
             background-color: #ffffff; 
-            padding:  0; 
+            padding: 15px 0; 
             border-bottom: 1px solid #eee; 
             position: sticky; 
             top: 0; 
@@ -59,10 +54,10 @@
         .active-nav { background-color: #3498db; color: white; }
 
         /* Content */
-        .container { max-width: 850px; margin: 10px auto; padding: 0 10px; }
-        .research-card { background: white; padding: 10px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 10px; }
+        .container { max-width: 850px; margin: 40px auto; padding: 0 20px; }
+        .research-card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 30px; }
         h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-top: 0; font-size: 1.6rem; }
-        .highlight { background-color: #f8f9fa; padding: 10px; border-left: 5px solid #3498db; font-style: italic; margin: 10px 0; color: #444; }
+        .highlight { background-color: #f8f9fa; padding: 20px; border-left: 5px solid #3498db; font-style: italic; margin: 20px 0; color: #444; }
         
         footer { text-align: center; padding: 40px; color: #7f8c8d; font-size: 0.9rem; }
     </style>
@@ -70,6 +65,7 @@
 <body>
 
 <div class="page-title-bar">
+    <h1>Asif Shaikh — Research</h1>
 </div>
 
 <nav class="main-nav">
@@ -86,8 +82,8 @@
         <p>My work sits at the interface of combinatorial and geometric group theory, guided by two complementary perspectives:</p>
         
         <ul>
-            <li><strong>Combinatorial:</strong> The study of generators, relations, and the action of automorphisms of F_m on generating tuples, utilizing Whitehead moves as fundamental operations.</li>
-            <li><strong>Geometric:</strong> Following Stallings, I employ the core graph of a finitely generated subgroup H to encode structure and measure complexity through vertex counts.</li>
+            <li><strong>Combinatorial:</strong> The study of generators, relations, and the action of automorphisms of $F_m$ on generating tuples, utilizing Whitehead moves as fundamental operations.</li>
+            <li><strong>Geometric:</strong> Following Stallings, I employ the core graph of a finitely generated subgroup $H$ to encode structure and measure complexity through vertex counts.</li>
         </ul>
 
         <div class="highlight">
@@ -97,10 +93,9 @@
 
     <div class="research-card">
         <h2>Structural Complexity vs. Quantitative Growth</h2>
-        <p>A central pillar of my research is connecting Whitehead’s classical theory with the quantitative measure of <strong>cogrowth</strong> of H.</p>
+        <p>A central pillar of my research is connecting Whitehead’s classical theory with the quantitative measure of <strong>cogrowth</strong> of $H$.</p>
         
-        <p>While Whitehead moves allow us to detect and reduce the geometric complexity of a generating system, the cogrowth records the exponential growth rate of reduced words representing elements of H. 
-            My current motivation is to clarify whether structural simplifications systematically affect this quantitative growth.</p>
+        <p>While Whitehead moves allow us to detect and reduce the geometric complexity of a generating system, the cogrowth records the exponential growth rate of reduced words representing elements of $H$. My current motivation is to clarify whether structural simplifications systematically affect this quantitative growth.</p>
         
         <p>Ultimately, this work aims to identify a potential <strong>duality</strong> between geometric simplicity and quantitative complexity, providing predictive control of cogrowth through structural criteria.</p>
     </div>
