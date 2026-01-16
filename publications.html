@@ -6,6 +6,20 @@
     <title>Publications | Asif Shaikh</title>
 
     <script>
+        /* Mobile Optimization for Navigation */
+@media (max-width: 600px) {
+    .main-nav {
+        flex-wrap: wrap; /* Allows buttons to move to a second line */
+        padding: 10px;
+    }
+    .nav-button {
+        margin: 5px; /* Adds space between stacked buttons */
+        padding: 10px 12px;
+        font-size: 0.75rem; /* Slightly smaller text for mobile */
+        flex: 1 1 40%; /* Makes buttons take up roughly half the width */
+        text-align: center;
+    }
+}
         window.MathJax = {
             tex: {
                 inlineMath: [['$', '$'], ['\\(', '\\)']],
