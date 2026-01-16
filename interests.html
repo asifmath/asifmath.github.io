@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interests | Asif Shaikh</title>
     <style>
+        /* Mobile Optimization for Navigation */
+@media (max-width: 600px) {
+    .main-nav {
+        flex-wrap: wrap; /* Allows buttons to move to a second line */
+        padding: 10px;
+    }
+    .nav-button {
+        margin: 5px; /* Adds space between stacked buttons */
+        padding: 10px 12px;
+        font-size: 0.75rem; /* Slightly smaller text for mobile */
+        flex: 1 1 40%; /* Makes buttons take up roughly half the width */
+        text-align: center;
+    }
+}
         body { margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; line-height: 1.7; background-color: #fcfcfc; color: #333; }
         .page-title-bar { background-color: #34495e; color: white; padding: 20px 0; text-align: center; }
         .page-title-bar h1 { margin: 0; font-size: 1.5rem; letter-spacing: 1px; }
